@@ -96,6 +96,22 @@
         ]
       },
       "path": "~/curios"
+    },
+    {
+      "name": "BlightStone",
+      "type": "curiosbauble",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blight_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dota/models/item/blight_stone.json",
+          "src/main/java/net/mcreator/dota/client/renderer/BlightStoneRenderer.java",
+          "src/main/java/net/mcreator/dota/item/BlightStoneItem.java"
+        ]
+      },
+      "path": "~/curios"
     }
   ],
   "variable_elements": [],
@@ -120,28 +136,30 @@
   "language_map": {
     "ru_ru": {
       "itemGroup.tabdota_records": "Пластинки Dota",
-      "subtitles.psiblades": "Два псиблейда и ты труп...",
       "item.dota.musicdiscpsiblades": "Пластинка",
-      "itemGroup.tabdota_curios": "Dota Curios",
       "item.dota.bandofelvenskin": "Band of Elvenskin",
+      "item.dota.battlefury": "Battle Fury",
+      "item.dota.blight_stone": "Blight Stone",
+      "subtitles.psiblades": "Два псиблейда и ты труп...",
+      "itemGroup.tabdota_curios": "Dota Curios",
       "item.dota.musicdischaunt": "Пластинка",
       "item.dota.musicdischaunt.desc": "zxcursed, mupp - haunt",
       "itemGroup.tabdota_weapon": "Оружие Dota",
       "subtitles.haunt": "haunt!",
-      "item.dota.battlefury": "Battle Fury",
       "item.dota.musicdiscpsiblades.desc": "Shadowraze, babyswishh1 - psiblades"
     },
     "en_us": {
       "itemGroup.tabdota_records": "Dota Music Discs",
-      "subtitles.psiblades": "",
       "item.dota.musicdiscpsiblades": "Music disс",
-      "itemGroup.tabdota_curios": "Dota Curios",
       "item.dota.bandofelvenskin": "Band of Elvenskin",
+      "item.dota.battlefury": "Battle Fury",
+      "item.dota.blight_stone": "Blight Stone",
+      "subtitles.psiblades": "",
+      "itemGroup.tabdota_curios": "Dota Curios",
       "item.dota.musicdischaunt": "Music disс",
       "item.dota.musicdischaunt.desc": "zxcursed, mupp - haunt",
       "itemGroup.tabdota_weapon": "Dota Weapon",
       "subtitles.haunt": "",
-      "item.dota.battlefury": "Battle Fury",
       "item.dota.musicdiscpsiblades.desc": "Shadowraze, babyswishh1 - psiblades"
     }
   },

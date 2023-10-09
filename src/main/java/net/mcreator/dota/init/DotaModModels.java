@@ -11,12 +11,14 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.mcreator.dota.client.model.Modelelvenskin2;
 import net.mcreator.dota.client.model.Modelelvenskin;
+import net.mcreator.dota.client.model.Modelblightstone;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = {Dist.CLIENT})
 public class DotaModModels {
 	@SubscribeEvent
 	public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
 		event.registerLayerDefinition(Modelelvenskin2.LAYER_LOCATION, Modelelvenskin2::createBodyLayer);
+		event.registerLayerDefinition(Modelblightstone.LAYER_LOCATION, Modelblightstone::createBodyLayer);
 		event.registerLayerDefinition(Modelelvenskin.LAYER_LOCATION, Modelelvenskin::createBodyLayer);
 	}
 }
