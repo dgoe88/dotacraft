@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.item.Item;
 
+import net.mcreator.dota.item.MusicdiscpsibladesItem;
 import net.mcreator.dota.item.MusicdischauntItem;
 import net.mcreator.dota.item.BattlefuryItem;
 import net.mcreator.dota.DotaMod;
@@ -18,4 +19,5 @@ public class DotaModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, DotaMod.MODID);
 	public static final RegistryObject<Item> BATTLEFURY = REGISTRY.register("battlefury", () -> new BattlefuryItem());
 	public static final RegistryObject<Item> MUSICDISCHAUNT = REGISTRY.register("musicdischaunt", () -> new MusicdischauntItem());
+	public static final RegistryObject<Item> MUSICDISCPSIBLADES = REGISTRY.register("musicdiscpsiblades", () -> new MusicdiscpsibladesItem());
 }

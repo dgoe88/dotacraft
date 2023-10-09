@@ -1,7 +1,11 @@
 {
   "itemGroup.tabdota_records": "Пластинки Dota",
+  "subtitles.psiblades": "Два псиблейда и ты труп...",
+  "item.dota.musicdiscpsiblades": "Пластинка",
   "item.dota.musicdischaunt": "Пластинка",
   "item.dota.musicdischaunt.desc": "zxcursed, mupp - haunt",
+  "itemGroup.tabdota_weapon": "Оружие Dota",
   "subtitles.haunt": "haunt!",
-  "item.dota.battlefury": "Battle Fury"
+  "item.dota.battlefury": "Battle Fury",
+  "item.dota.musicdiscpsiblades.desc": "Shadowraze, babyswishh1 - psiblades"
 }

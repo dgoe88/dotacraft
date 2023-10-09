@@ -3,17 +3,17 @@
   "_type": "musicdisc",
   "definition": {
     "name": "Music disс",
-    "texture": "disk_haunt",
-    "description": "zxcursed, mupp - haunt",
+    "texture": "psiblades",
+    "description": "Shadowraze, babyswishh1 - psiblades",
     "creativeTab": {
       "value": "CUSTOM:DotaRecords"
     },
     "specialInfo": [],
     "hasGlow": false,
     "music": {
-      "value": "CUSTOM:haunt"
+      "value": "CUSTOM:psiblades"
     },
-    "lengthInTicks": 2100,
+    "lengthInTicks": 2640,
     "analogOutput": 0
   }
 }

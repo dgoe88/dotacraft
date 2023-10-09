@@ -1,7 +1,11 @@
 {
   "itemGroup.tabdota_records": "Dota Music Discs",
-  "item.dota.musicdischaunt": "Music disk",
+  "subtitles.psiblades": "",
+  "item.dota.musicdiscpsiblades": "Music disс",
+  "item.dota.musicdischaunt": "Music disс",
   "item.dota.musicdischaunt.desc": "zxcursed, mupp - haunt",
+  "itemGroup.tabdota_weapon": "Dota Weapon",
   "subtitles.haunt": "",
-  "item.dota.battlefury": "Battle Fury"
+  "item.dota.battlefury": "Battle Fury",
+  "item.dota.musicdiscpsiblades.desc": "Shadowraze, babyswishh1 - psiblades"
 }

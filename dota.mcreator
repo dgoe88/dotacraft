@@ -13,18 +13,19 @@
           "src/main/resources/assets/dota/models/item/musicdischaunt.json"
         ]
       },
-      "path": "~/music_disk"
+      "path": "~/music_disc"
     },
     {
       "name": "DotaRecords",
       "type": "tab",
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dota_records",
       "metadata": {
         "files": []
       },
-      "path": "~/music_disk"
+      "path": "~/music_disc"
     },
     {
       "name": "Battlefury",
@@ -40,6 +41,33 @@
         ]
       },
       "path": "~/weapon"
+    },
+    {
+      "name": "DotaWeapon",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dota_weapon",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/weapon"
+    },
+    {
+      "name": "Musicdiscpsiblades",
+      "type": "musicdisc",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "musicdiscpsiblades",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dota/item/MusicdiscpsibladesItem.java",
+          "src/main/resources/assets/dota/models/item/musicdiscpsiblades.json"
+        ]
+      },
+      "path": "~/music_disc"
     }
   ],
   "variable_elements": [],
@@ -51,29 +79,45 @@
       ],
       "category": "record",
       "subtitle": ""
+    },
+    {
+      "name": "psiblades",
+      "files": [
+        "psiblades"
+      ],
+      "category": "record",
+      "subtitle": ""
     }
   ],
   "language_map": {
     "ru_ru": {
       "itemGroup.tabdota_records": "Пластинки Dota",
+      "subtitles.psiblades": "Два псиблейда и ты труп...",
+      "item.dota.musicdiscpsiblades": "Пластинка",
       "item.dota.musicdischaunt": "Пластинка",
       "item.dota.musicdischaunt.desc": "zxcursed, mupp - haunt",
+      "itemGroup.tabdota_weapon": "Оружие Dota",
       "subtitles.haunt": "haunt!",
-      "item.dota.battlefury": "Battle Fury"
+      "item.dota.battlefury": "Battle Fury",
+      "item.dota.musicdiscpsiblades.desc": "Shadowraze, babyswishh1 - psiblades"
     },
     "en_us": {
       "itemGroup.tabdota_records": "Dota Music Discs",
-      "item.dota.musicdischaunt": "Music disk",
+      "subtitles.psiblades": "",
+      "item.dota.musicdiscpsiblades": "Music disс",
+      "item.dota.musicdischaunt": "Music disс",
       "item.dota.musicdischaunt.desc": "zxcursed, mupp - haunt",
+      "itemGroup.tabdota_weapon": "Dota Weapon",
       "subtitles.haunt": "",
-      "item.dota.battlefury": "Battle Fury"
+      "item.dota.battlefury": "Battle Fury",
+      "item.dota.musicdiscpsiblades.desc": "Shadowraze, babyswishh1 - psiblades"
     }
   },
   "foldersRoot": {
     "name": "~",
     "children": [
       {
-        "name": "music_disk",
+        "name": "music_disc",
         "children": []
       },
       {

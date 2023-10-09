@@ -7,10 +7,10 @@
     "customModelName": "battlefury:default",
     "name": "Battle Fury",
     "specialInfo": [
-      "The wielder of this mighty axe can mow down entire rows of enemies."
+      "Владелец этого могучего топора может выкашивать врагов целыми рядами."
     ],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:DotaWeapon"
     },
     "toolType": "Axe",
     "harvestLevel": 1,

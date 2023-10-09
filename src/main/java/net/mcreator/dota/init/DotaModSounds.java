@@ -16,4 +16,5 @@ import net.mcreator.dota.DotaMod;
 public class DotaModSounds {
 	public static final DeferredRegister<SoundEvent> REGISTRY = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, DotaMod.MODID);
 	public static final RegistryObject<SoundEvent> HAUNT = REGISTRY.register("haunt", () -> new SoundEvent(new ResourceLocation("dota", "haunt")));
+	public static final RegistryObject<SoundEvent> PSIBLADES = REGISTRY.register("psiblades", () -> new SoundEvent(new ResourceLocation("dota", "psiblades")));
 }
