@@ -1,0 +1,55 @@
+{
+  "_fv": 43,
+  "_type": "curiosbauble",
+  "definition": {
+    "renderType": 0,
+    "texture": "elvenskininv",
+    "customModelName": "Normal",
+    "name": "Band of Elvenskin",
+    "rarity": "COMMON",
+    "slotType": "BRACELET",
+    "baubleModel": "Modelelvenskin2",
+    "baubleModelTexture": "elvenskin.png",
+    "creativeTab": {
+      "value": "CUSTOM:DotaCurios"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "addSlot": true,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "Эту эластичную ткань часто используют",
+      "так как она легка и не сковывает движения."
+    ],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "slotAmount": 1,
+    "isFood": false,
+    "friendlyPigs": false,
+    "enderMask": false,
+    "rotateModel": true,
+    "translateModel": false,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "hasModel": true,
+    "animation": "none"
+  }
+}

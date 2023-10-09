@@ -25,4 +25,10 @@ authors="dgOe, MCreator"
     ordering="NONE"
     side="BOTH"
 
+[[dependencies.dota]]
+    modId="curios_api"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 

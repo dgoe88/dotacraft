@@ -68,6 +68,34 @@
         ]
       },
       "path": "~/music_disc"
+    },
+    {
+      "name": "DotaCurios",
+      "type": "tab",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dota_curios",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/curios"
+    },
+    {
+      "name": "Bandofelvenskin",
+      "type": "curiosbauble",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bandofelvenskin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dota/item/BandofelvenskinItem.java",
+          "src/main/resources/assets/dota/models/item/bandofelvenskin.json",
+          "src/main/java/net/mcreator/dota/client/renderer/BandofelvenskinRenderer.java"
+        ]
+      },
+      "path": "~/curios"
     }
   ],
   "variable_elements": [],
@@ -94,6 +122,8 @@
       "itemGroup.tabdota_records": "Пластинки Dota",
       "subtitles.psiblades": "Два псиблейда и ты труп...",
       "item.dota.musicdiscpsiblades": "Пластинка",
+      "itemGroup.tabdota_curios": "Dota Curios",
+      "item.dota.bandofelvenskin": "Band of Elvenskin",
       "item.dota.musicdischaunt": "Пластинка",
       "item.dota.musicdischaunt.desc": "zxcursed, mupp - haunt",
       "itemGroup.tabdota_weapon": "Оружие Dota",
@@ -105,6 +135,8 @@
       "itemGroup.tabdota_records": "Dota Music Discs",
       "subtitles.psiblades": "",
       "item.dota.musicdiscpsiblades": "Music disс",
+      "itemGroup.tabdota_curios": "Dota Curios",
+      "item.dota.bandofelvenskin": "Band of Elvenskin",
       "item.dota.musicdischaunt": "Music disс",
       "item.dota.musicdischaunt.desc": "zxcursed, mupp - haunt",
       "itemGroup.tabdota_weapon": "Dota Weapon",
@@ -131,6 +163,10 @@
       {
         "name": "biome",
         "children": []
+      },
+      {
+        "name": "curios",
+        "children": []
       }
     ]
   },
@@ -147,6 +183,7 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [
+      "curios_api",
       "mcreator_link"
     ],
     "currentGenerator": "forge-1.19.2",
