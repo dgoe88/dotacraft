@@ -123,6 +123,10 @@
       {
         "name": "weapon",
         "children": []
+      },
+      {
+        "name": "enchantment",
+        "children": []
       }
     ]
   },
