@@ -127,6 +127,10 @@
       {
         "name": "enchantment",
         "children": []
+      },
+      {
+        "name": "biome",
+        "children": []
       }
     ]
   },
