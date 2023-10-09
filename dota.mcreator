@@ -3,6 +3,7 @@
     {
       "name": "Musicdischaunt",
       "type": "musicdisc",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "musicdischaunt",
@@ -24,6 +25,21 @@
         "files": []
       },
       "path": "~/music_disk"
+    },
+    {
+      "name": "Battlefury",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "battlefury",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dota/item/BattlefuryItem.java",
+          "src/main/resources/assets/dota/models/item/battlefury.json"
+        ]
+      },
+      "path": "~/weapon"
     }
   ],
   "variable_elements": [],
@@ -38,11 +54,19 @@
     }
   ],
   "language_map": {
+    "ru_ru": {
+      "itemGroup.tabdota_records": "Пластинки Dota",
+      "item.dota.musicdischaunt": "Пластинка",
+      "item.dota.musicdischaunt.desc": "zxcursed, mupp - haunt",
+      "subtitles.haunt": "haunt!",
+      "item.dota.battlefury": "Battle Fury"
+    },
     "en_us": {
       "itemGroup.tabdota_records": "Dota Music Discs",
       "item.dota.musicdischaunt": "Music disk",
       "item.dota.musicdischaunt.desc": "zxcursed, mupp - haunt",
-      "subtitles.haunt": ""
+      "subtitles.haunt": "",
+      "item.dota.battlefury": "Battle Fury"
     }
   },
   "foldersRoot": {
@@ -50,6 +74,10 @@
     "children": [
       {
         "name": "music_disk",
+        "children": []
+      },
+      {
+        "name": "weapon",
         "children": []
       }
     ]

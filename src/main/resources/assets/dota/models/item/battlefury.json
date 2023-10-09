@@ -1,0 +1,7 @@
+{
+  "parent": "dota:custom/battlefury",
+  "textures": {
+    "4": "dota:blocks/zxc5",
+    "particle": "dota:items/battlefury"
+  }
+}

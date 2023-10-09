@@ -6,7 +6,7 @@
     "texture": "disk_haunt",
     "description": "zxcursed, mupp - haunt",
     "creativeTab": {
-      "value": "TRANSPORTATION"
+      "value": "CUSTOM:DotaRecords"
     },
     "specialInfo": [],
     "hasGlow": false,
