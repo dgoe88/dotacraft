@@ -38,7 +38,7 @@ public class DotaModTabs {
 		TAB_DOTA_CURIOS = new CreativeModeTab("tabdota_curios") {
 			@Override
 			public ItemStack makeIcon() {
-				return new ItemStack(DotaModItems.MUSICDISCPSIBLADES.get());
+				return new ItemStack(DotaModItems.BANDOFELVENSKIN.get());
 			}
 
 			@Override
