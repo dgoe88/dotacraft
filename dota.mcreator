@@ -1,0 +1,78 @@
+{
+  "mod_elements": [
+    {
+      "name": "Musicdischaunt",
+      "type": "musicdisc",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "musicdischaunt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dota/item/MusicdischauntItem.java",
+          "src/main/resources/assets/dota/models/item/musicdischaunt.json"
+        ]
+      },
+      "path": "~/music_disk"
+    },
+    {
+      "name": "DotaRecords",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dota_records",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/music_disk"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "haunt",
+      "files": [
+        "haunt"
+      ],
+      "category": "record",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "itemGroup.tabdota_records": "Dota Music Discs",
+      "item.dota.musicdischaunt": "Music disk",
+      "item.dota.musicdischaunt.desc": "zxcursed, mupp - haunt",
+      "subtitles.haunt": ""
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "music_disk",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "dota",
+    "modName": "dota",
+    "version": "1.0.0",
+    "author": "dgOe, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "mcreator_link"
+    ],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.dota",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}

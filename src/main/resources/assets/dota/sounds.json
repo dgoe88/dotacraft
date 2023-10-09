@@ -1,0 +1,10 @@
+{
+  "haunt": {
+    "sounds": [
+      {
+        "name": "dota:haunt",
+        "stream": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "_fv": 43,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Music disk",
+    "texture": "disk_haunt",
+    "description": "zxcursed, mupp - haunt",
+    "creativeTab": {
+      "value": "TRANSPORTATION"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:haunt"
+    },
+    "lengthInTicks": 2100,
+    "analogOutput": 0
+  }
+}
